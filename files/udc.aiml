@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>I have no answer for that.</li>
+            <li>I'm sorry.</li>
+            <li>Let us try that again.</li>
+        </random>
+    </template>
+  </category>
+<category>
+    <pattern>hello</pattern>
+    <template>Hi! I have some questions to ask you about your future career.</template>
+</category>
+<category>
+    <pattern>ok</pattern>
+    <template>Do you prefer working on hardware or with software?</template>
+</category>
+
+<category><pattern>let us do this</pattern><template><srai>OK</srai></template></category>
+
+<category>
+    <pattern>software</pattern>
+    <template>Edit bot response</template>
+</category>
+
+<category>
+    <patter>hardware</patter>
+    <template>Edit bot response</template>
+</category>
+</aiml>
